@@ -1,0 +1,228 @@
+body {
+    background:#f73a63;  
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+    
+
+
+nav {
+    background: none;
+    top: 0px;
+    margin: 0.5em;
+    
+}
+
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size:20px;
+    color: beige;
+    
+  
+}
+
+
+#navbar li {
+    margin: 0 0px 0 10px;
+    
+  }
+
+a {
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+a:hover{
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    color: blue;
+    text-decoration: none;
+    transform: rotate(20deg);
+
+}
+
+#firstsection {
+    height: 100vh;
+    position: relative;
+    
+    
+}
+
+.about {
+    font-family: "Helvetica Neue";
+    font-size: 70px;
+    color: white;
+    margin: 0.2em;
+    
+}
+
+
+
+#hyper {
+    font-family: "Helvetica Neue";
+    font-size: 70px;
+    color: white;
+
+}
+
+
+#hyper:hover {
+    color: blue;
+
+}
+
+#cv {
+    font-size: 12px; 
+}
+
+#cv:hover {
+    color: blue;
+}
+
+#code:hover{
+    background-image: url("media/code.svg");
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position-y: top;
+    background-position-x: right;
+}
+
+
+  
+
+#heart {
+   width: 30px;
+  
+}
+
+#Lager_1 {
+   width: 200px;
+   fill: blue;
+   position: absolute;
+   z-index: -1;
+   top: 250px;
+   right: 0; 
+  -webkit-animation: rotation 3s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+      from {
+              -webkit-transform: rotate(0deg);
+      }
+      to {
+              -webkit-transform: rotate(359deg);
+      }
+}
+  
+#last_section{
+        height: 100vh;
+        position: relative;
+        background: rgb(252, 124, 5);
+        
+    }
+
+ 
+  #work {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: center;
+        margin-right: 0px;
+        margin-left: 0px;
+        background: transparent;
+        
+  
+  }
+
+  #image {
+    margin: auto;
+    max-width: 500px;
+    margin-bottom: 0px;
+    margin-top: 150px;
+  }
+
+  #Lager_2 {
+    width: 180px;
+    fill: blue;
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+    left: 0; 
+   -webkit-animation: rotation 6s infinite linear;
+ }
+ 
+ @-webkit-keyframes rotation {
+       from {
+               -webkit-transform: rotate(0deg);
+       }
+       to {
+               -webkit-transform: rotate(359deg);
+       }
+ }
+
+  #footer {
+    display: flex;
+    width: 100vw;
+    background: none;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 0;
+    padding: 0.5em;
+    align-items: flex-end;
+    
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+
+
+}
+
+
+
+  #foot {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      flex-shrink: 0;
+      margin: 0;
+      
+
+  }
+
+  .foot-items {
+    margin-bottom: 0px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: beige
+
+  }
+
+  #foot_right {
+    margin-bottom: 0px;
+    margin-right: 0px;
+    font-size: 20px;
+    color: beige
+
+  }
+
+
+  
+
+ /*margin-top: 100vh
+  
+ #hello:hover {
+     background: none;
+     transform: skewX(10deg);
+ }
