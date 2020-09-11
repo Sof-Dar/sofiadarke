@@ -124,6 +124,8 @@ a.hyper:hover, a.mail:hover {
     color: blue;
 }
 
+
+
 #code:hover{
     background-image: url("media/code.svg");
     background-repeat: no-repeat;
@@ -228,7 +230,7 @@ a.hyper:hover, a.mail:hover {
 
 p {
     font-family: "Helvetica Neue";
-    font-size: 70px;
+    font-size: 10vh;
     z-index: 100;
     color: whitesmoke;
     margin: 0.2em;
