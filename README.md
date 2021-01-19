@@ -1,5 +1,5 @@
 # sofiadarke
-My personal website done in html/CSS/Javascript
+My first personal portfolio site done in html/CSS
 
 # URL
-https://sofiadarkeweb.github.io/portfolio/.
+https://sofiadarkeweb.github.io/sofiadarke/#
